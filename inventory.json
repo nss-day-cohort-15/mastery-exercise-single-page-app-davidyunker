@@ -1,0 +1,27 @@
+{
+  "cars": [{
+    "make": "Nissan",
+    "model": "Rogue",
+    "year": "2006",
+    "price": "8999",
+    "color": "FireBrick",
+    "purchased": false,
+    "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
+  }, {
+    "make": "Toyota",
+    "model": "Matrix",
+    "year": "2005",
+    "price": "7000",
+    "color": "Silver",
+    "purchased": false,
+    "description": "This is a less-than-immaculate 2005 Toyota Matrix with only 100000 miles on it. Cloth seats, power everything."
+  }, {
+    "make": "Honda",
+    "model": "Accord",
+    "year": "2009",
+    "price": "9999",
+    "color": "Grey",
+    "purchased": true,
+    "description": "This is an immaculate 2009 Honda Accord with only 75000 miles on it. Leather seats, power everything."
+  }]
+}
