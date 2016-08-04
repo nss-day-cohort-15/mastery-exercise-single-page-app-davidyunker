@@ -4,7 +4,7 @@
     "model": "Rogue",
     "year": "2006",
     "price": "8999",
-    "color": "FireBrick",
+    "color": "Tomato",
     "purchased": false,
     "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
   }, {
@@ -20,8 +20,32 @@
     "model": "Accord",
     "year": "2009",
     "price": "9999",
-    "color": "Grey",
+    "color": "Green",
     "purchased": true,
     "description": "This is an immaculate 2009 Honda Accord with only 75000 miles on it. Leather seats, power everything."
+  }, {
+    "make": "Ford",
+    "model": "Mustang",
+    "year": "2002",
+    "price": "3999",
+    "color": "Blue",
+    "purchased": false,
+    "description": "This is an immaculate 2002 Ford Mustang with only 25000 miles on it. Leather seats, power everything."
+  }, {
+    "make": "Kia",
+    "model": "Sol",
+    "year": "2010",
+    "price": "9000",
+    "color": "Orange",
+    "purchased": false,
+    "description": "This is a less-than-immaculate 2010 Kia Sol with only 100000 miles on it. Cloth seats, power everything."
+  }, {
+    "make": "Chevy",
+    "model": "Impala",
+    "year": "2007",
+    "price": "6999",
+    "color": "Yellow",
+    "purchased": true,
+    "description": "This is an immaculate 2007 Chevy Impala with only 75000 miles on it. Leather seats, power everything."
   }]
 }

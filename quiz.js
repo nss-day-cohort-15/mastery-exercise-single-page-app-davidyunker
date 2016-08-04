@@ -27,9 +27,9 @@ var CarLot = (function(carlot) {
 
 
 carlot.populatePage = function (inventory) {
-  var carDisplay = document.querySelector(".placeCars");
+  var carDisplay = document.querySelector(".row");
   inventory.forEach(function(cars) {
-   carDisplay.innerHTML += `<div class="eachCar"> <h1>${cars.make}</h1> <p>${cars.model}</p> <p>${cars.year}</p> <p>${cars.price}</p <p>${cars.color}</p> <p>${cars.purchased}</p> <p>${cars.description}</p>
+   carDisplay.innerHTML += `<div class="col-md-4" style="border:2px solid ${cars.color}"> <h1 class="display-2">Make: ${cars.make}</h1> <p>Model: ${cars.model}</p> <p>Year: ${cars.year}</p> <p>Price: ${cars.price}</p <p>Color: ${cars.color}</p> <p>Available: ${cars.purchased}</p> <p>Description: ${cars.description}</p>
        </div>`
   });
   // Loop over the inventory and populate the page
