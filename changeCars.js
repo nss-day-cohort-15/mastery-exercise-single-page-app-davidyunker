@@ -5,25 +5,25 @@
 // arguments. A car DOM element that was clicked on. A color name.
 
 
-// var CarLot = (function(carlot) {
+var CarLot = (function(carlot) {
 
 
-// carlot.changeCars = function (whichCar, whichColor) {
-//   .classList.add("newColor")
+  carlot.changeCars = function (whichCar, whichColor) {
+    carlot.resetCars()
+    console.log(whichCar)
+    console.log(whichColor)
+    var thisCar = whichCar
+    thisCar.classList.add(whichColor)
+    }
 
 
-// }
+  carlot.resetCars = function () {
+    var eachCar = document.querySelectorAll(".eachCar")
+    eachCar.forEach(function (cars) {
+      console.log(cars)
+      cars.classList.remove("black")
+    })
+  }
+return carlot
 
-// //
-// carlot.revertCars = function () {
-//   // reset backgroundColor
-//   // reset border
-
-
-
-
-
-// }
-
-// return carlot
-// })()
+})(CarLot)
