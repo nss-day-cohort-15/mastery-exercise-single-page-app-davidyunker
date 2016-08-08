@@ -29,15 +29,9 @@ carlot.carDescriptionField = function () {
   var userInput = document.querySelector(".user-input").value
   var carPick = document.querySelector(".black")
   console.log(carPick.lastChild.previousSibling.innerText)
-
-
-  // var carDescription = document.querySelector(".black .description")
-// console.log(carDescription)
-var carDescription = carPick.lastChild.previousSibling.innerText
-userInput = carDescription
-
-
-
+  console.log("typed thing", userInput)
+  var carDescription = carPick.lastChild.previousSibling
+  carDescription.innerText = userInput
 
 }
 

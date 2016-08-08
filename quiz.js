@@ -23,7 +23,7 @@ carlot.activateEvents()
                 userInput.value = " "
                 userInput.focus()
                 CarLot.changeCars(evt.currentTarget, "black")
-                userInput.addEventListener("keydown", CarLot.carDescriptionField())
+                userInput.addEventListener("keydown", CarLot.carDescriptionField)
               })
             })
 
