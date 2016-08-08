@@ -17,15 +17,13 @@ carlot.activateEvents()
 
       carlot.activateEvents = function() {
         var allCars = document.querySelectorAll(".eachCar")
-        var input = document.querySelector(".user-input")
-            console.log(allCars)
+        var userInput = document.querySelector(".user-input")
             allCars.forEach(function (cars) {
               cars.addEventListener("click", function(evt) {
-                input.value = " "
-                input.focus()
-                console.log(evt.currentTarget)
+                userInput.value = " "
+                userInput.focus()
                 CarLot.changeCars(evt.currentTarget, "black")
-
+                userInput.addEventListener("keydown", CarLot.carDescriptionField())
               })
             })
 
